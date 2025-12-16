@@ -20,19 +20,19 @@ function Menu() {
   return (
     <section className="bg-white text-white min-h-screen w-full">
       <section className="">
-        <div className="grid grid-row md:grid-cols-2  gap-1 w-full ">
-          <h1 className="text-black  md:text-6xl font-bold  px-10 pt-30">
+        <div className="grid grid-row md:grid-cols-  gap-1 w-full ">
+          <h1 className="text-black  md:text-6xl font-bold  pl-10 pt-30">
             Our Menu
             <p className="text-gray-600 text-sm sm:font-serif w-90">
               This is a section of your menu. Give your section a brief
               description.
             </p>
           </h1>
-          <img src="/image/menuleaf.png" className="w-100" />
+          <img src="/image/menuleaf.png" className="w-100 absolute right-0 " />
         </div>
       </section>
 
-      <div className=" mb-20">
+      <div className=" mb-20 mt-20">
         <div className="grid grid-row md:grid-cols-2 gap-0 px-20">
           {items.slice(0, 4).map((item) => (
             <div key={item.id} className=" text-center  pb-10 text-black">

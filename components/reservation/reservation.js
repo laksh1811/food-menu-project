@@ -40,7 +40,7 @@ function Reservation() {
   };
 
   return (
-    <section className="bg-[#e6edd3] min-h-screen w-full pl-90">
+    <section className="bg-[#e6edd3] min-h-screen w-full px-50">
       {/* Header Section */}
       <div className="py-10 px-40 flex items-center gap-7">
         <img
@@ -138,7 +138,7 @@ function Reservation() {
           <div className="flex justify-center pt-4">
             <button
               type="submit"
-              className="px-12 py-3 bg-[#5b6517] text-white font-medium hover:bg-[#4a5412] transition"
+              className="px-12 py-3 bg-[#5b6517] text-white font-medium hover:bg-[#4a5412] transition mb-10"
             >
               Book Now
             </button>
